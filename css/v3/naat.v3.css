@@ -352,6 +352,14 @@
 .wrapper-2aW0bm {
   background-color: var(--message-hover-buttons-background);
 }
+.wrapper-2aW0bm .button-1ZiXG9 {
+  color: var(--message-hover-buttons-color);
+}
+.wrapper-2aW0bm .button-1ZiXG9:hover, .wrapper-2aW0bm .button-1ZiXG9.selected-LCBEAU {
+  background-color: var(--message-hover-buttons-hover-background);
+  color: var(--message-hover-buttons-hover-button-color);
+}
+
 
 /* Context menu */
 .menu-3sdvDG {
