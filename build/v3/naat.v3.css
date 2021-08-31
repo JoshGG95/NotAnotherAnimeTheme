@@ -349,15 +349,20 @@
 }
 
 /* Message Hover buttons */
+.full-motion .wrapper-2aW0bm:hover,
 .wrapper-2aW0bm {
-  background-color: var(--message-hover-buttons-background);
+  background: var(--message-hover-buttons-background);
 }
+.full-motion .wrapper-2aW0bm:hover .button-1ZiXG9,
 .wrapper-2aW0bm .button-1ZiXG9 {
+  background-color: var(--message-hover-buttons-background);
   color: var(--message-hover-buttons-color);
 }
-.wrapper-2aW0bm .button-1ZiXG9:hover, .wrapper-2aW0bm .button-1ZiXG9.selected-LCBEAU {
-  background-color: var(--message-hover-buttons-hover-background);
-  color: var(--message-hover-buttons-hover-button-color);
+.full-motion .wrapper-2aW0bm:hover .button-1ZiXG9:hover, .full-motion .wrapper-2aW0bm:hover .button-1ZiXG9:active,
+.wrapper-2aW0bm .button-1ZiXG9:hover,
+.wrapper-2aW0bm .button-1ZiXG9:active {
+  background-color: var(--message-hover-buttons-hover-background) !important;
+  color: var(--message-hover-buttons-hover-color)!important;
 }
 
 
